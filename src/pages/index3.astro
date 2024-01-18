@@ -41,6 +41,10 @@
       right: 10%;
       top: 130px;
     }
+    .visible-on-mobile {
+        display: none; /* Standardmäßig versteckt */
+    }
+
 
     /* Responsive Design Anpassungen */
     @media screen and (max-width: 768px) {
@@ -57,6 +61,12 @@
       }
       .white-space {
         height: 100px; /* Angepasste Höhe für kleinere Bildschirme */
+      }
+      .hidden-on-mobile {
+            display: none; /* Versteckt auf mobilen Geräten */
+        }
+      .visible-on-mobile {
+          display: inline; /* Sichtbar auf mobilen Geräten */
       }
     }
   </style>
@@ -78,7 +88,8 @@
         99885 Ohrdruf/Thüringen
       </p>
       <p>
-        Telefon: 0 36 24 / 31 15 83<br>
+        Telefon: <span class="hidden-on-mobile">0 36 24 / 31 15 83</span>
+        <a href="tel:03624311583" class="visible-on-mobile">0 36 24 / 31 15 83</a><br>
         Telefax: 0 36 24 / 31 15 38
       </p>
       <div class="sub-header">ÖFFNUNGSZEITEN</div>
