@@ -1,0 +1,80 @@
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .contact-box {
+      background-color: #1e40af; /* Tailwind color blue-800 */
+      color: white;
+      width: 330px; /* Width of the box */
+      font-size: 14px; /* Base text size */
+      border-radius: 8px; /* Border radius */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    }
+    .contact-box .header {
+      font-size: 1.25rem; /* 20px */
+      line-height: 1.75rem; /* 28px */
+      font-weight: 700; /* Font weight for bold text */
+      margin-bottom: 16px; /* Margin bottom */
+    }
+    .contact-box .sub-header {
+      font-size: 1.125rem; /* 18px */
+      line-height: 1.75rem; /* 28px */
+      font-weight: 700; /* Font weight for bold text */
+      margin-top: 16px; /* Margin top */
+      margin-bottom: 8px; /* Margin bottom */
+    }
+    .contact-box .content {
+      padding: 16px; /* Padding */
+    }
+    .contact-box .footer {
+      background-color: #1e3a8a; /* Tailwind color blue-900 */
+      padding: 8px 16px; /* Padding */
+      display: flex; /* Flex display */
+      justify-content: space-between; /* Space between footer items */
+      align-items: center; /* Align items */
+    }
+    .contact-box .footer a {
+      color: #60a5fa; /* Tailwind color blue-200 */
+      text-decoration: none; /* No text decoration */
+      font-size: 14px; /* Text size */
+    }
+    .contact-box .footer a:hover {
+      color: white; /* White text on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-box mx-auto my-8">
+    <div class="content">
+      <div class="header">KONTAKT</div>
+      <p>
+        Zahnarztpraxis<br>
+        Dr. Nadine Handschuck<br>
+        Clara-Zetkin-Straße 6a<br>
+        99885 Ohrdruf/Thüringen
+      </p>
+      <p>
+        Telefon: 0 36 24 / 31 15 83<br>
+        Telefax: 0 36 24 / 31 15 38
+      </p>
+      <div class="sub-header">ÖFFNUNGSZEITEN</div>
+      <p>
+        Mo 8 - 12 Uhr / 14 - 19 Uhr<br>
+        Di&nbsp;&nbsp;&nbsp;&nbsp;8 - 12 Uhr / 14 - 17 Uhr<br>
+        Mi&nbsp;&nbsp;&nbsp;&nbsp;8 - 12 Uhr<br>
+        Do 8 - 12 Uhr / 14 - 19 Uhr<br>
+        Fr&nbsp;&nbsp;&nbsp;&nbsp;8 - 12 Uhr
+      </p>
+    </div>
+    <div class="footer">
+      <a href="#">Ihr Weg zu uns</a>
+      <a href="#">Anfrage per E-Mail</a>
+    </div>
+  </div>
+</body>
+</html>
